@@ -1,4 +1,7 @@
 #include<iostream>
 namespace Jarvis {
-    int * findSensitive(std::string str);
+    bool findSensitive(std::string str);
+    std::string * findKeyWord(std::string str);
+    std::string giveBasicRespons(std::string * AllKey);
+    std::string * readCsv(std::string path);
 }
